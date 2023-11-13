@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">SubmissionIntermediate</string>
+    <string name="signup">Daftar</string>
+    <string name="login">Masuk</string>
+    <string name="title_welcome_page">Selamat datang di StoryApps!</string>
+    <string name="splashscreen">Jelajahi Duniamu dan Update Statusmu</string>
+    <string name="title_signup_page">Lengkapi data dirimu di bawah ini ya</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="message_login_page">Masukkan dulu datamu ya</string>
+    <string name="title_login_page">Sudah siap untuk membagi cerita?</string>
+    <string name="name">Nama</string>
+    <string name="message_main_page">Mari Berbagi Cerita mu.</string>
+    <string name="greeting">Halo %1$s,</string>
+    <string name="logout">Keluar</string>
+    <string name="API_error_email_invalid">Invalid email format</string>
+    <string name="API_error_unauthorized"><![CDATA[" <string name=\"API_error_unauthorized\">Email address is not registered / Wrong Email or Password</string>"]]></string>
+    <string name="register_text">Apakah kamu belum punya akun?</string>
+    <string name="register_button">Daftar</string>
+    <string name="create_account_succes">Berhasil Membuat Akun!</string>
+    <string name="create_account_failed">Gagal Membuat Akun!\n</string>
+    <string name="login_succes">Berhasil Masuk!\n</string>
+    <string name="login_failed">Gagal Masuk!</string>
+    <string name="apps_name">StoryApp</string>
+    <string name="upload">Upload\n</string>
+    <string name="description">Description</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="detail_story">Detail Story</string>
+    <string name="upload_story">Upload Your Story\n</string>
+    <string name="add_new_story_success">Tambah story berhasil</string>
+    <string name="add_new_story_failed">Tambah story gagal</string>
+    <string name="empty_image_warning">Tolong masukan gambar!!!</string>
+    <string name="sign_out">Sign Out\n</string>
+    <string name="are_you_sure">Apakah kamu yakin?</string>
+    <string name="oke">Oke</string>
+    <string name="cancel">Batal</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <string name="normal_type">Normal</string>
+    <string name="satellite_type">Satellite</string>
+    <string name="terrain_type">Terrain</string>
+    <string name="hybrid_type">Hybrid</string>
+    <string name="try_again">Coba lagi</string>
+    <string name="UseLocation">Gunakan lokasi saat ini?\n</string>
+</resources>
