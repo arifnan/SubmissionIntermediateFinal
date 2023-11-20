@@ -1,5 +1,3 @@
-package com.example.submissionintermediate.ui.main
-
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.MutableLiveData
 import androidx.paging.AsyncPagingDataDiffer
@@ -14,7 +12,7 @@ import com.example.submissionintermediate.auth.UserRepository
 import com.example.submissionintermediate.data.response.Story
 import com.example.submissionintermediate.getOrAwaitValue
 import com.example.submissionintermediate.ui.adapter.StoryAdapter
-import junit.framework.TestCase
+import com.example.submissionintermediate.ui.main.MainViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.test.runTest
@@ -66,8 +64,8 @@ class MainViewModelTest {
         )
         differ.submitData(actualStory)
 
-        TestCase.assertEquals(dummyStory.size, differ.snapshot().size)
-        TestCase.assertEquals(dummyStory[0], differ.snapshot()[0])
+        assertEquals(dummyStory.size, differ.snapshot().size)
+        assertEquals(dummyStory[0], differ.snapshot()[0])
     }
 
     @Test
@@ -83,7 +81,7 @@ class MainViewModelTest {
             workerDispatcher = Dispatchers.Main,
         )
         differ.submitData(actualQuote)
-        TestCase.assertEquals(0, differ.snapshot().size)
+        assertEquals(0, differ.snapshot().size)
     }
 }
 
